@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.sweetbakery2.viewmodel.CustomerViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bakery_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/tvCustomerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:text="Loading..."
+            android:textSize="24sp" />
+
+        <!-- Make Order Button -->
+        <Button
+            android:id="@+id/btnMakeOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make Order" />
+
+
+        <Button
+            android:id="@+id/btnUserManual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Manual" />
+
+        <!-- Go to Admin Activity Button -->
+        <Button
+            android:id="@+id/btnFAQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FAQ" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+    </LinearLayout>
+</layout>

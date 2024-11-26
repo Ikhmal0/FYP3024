@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1007868190559",
+    "firebase_url": "https://sweetbakery-70734-default-rtdb.firebaseio.com",
+    "project_id": "sweetbakery-70734",
+    "storage_bucket": "sweetbakery-70734.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007868190559:android:bf0ece1b90b2f6a4a1a0ea",
+        "android_client_info": {
+          "package_name": "com.example.sweetbakery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKAllKmXcLGEUSHLqmfcBmG7fKh-6GJjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007868190559:android:48b8bb647d0d21afa1a0ea",
+        "android_client_info": {
+          "package_name": "com.example.sweetbakery2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKAllKmXcLGEUSHLqmfcBmG7fKh-6GJjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
